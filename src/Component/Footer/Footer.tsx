@@ -65,6 +65,16 @@ export default function Footer() {
         <div className="flex flex-col items-start w-full md:w-auto">
           <h1 className="text-l font-semibold mb-2">Connect with Us</h1>
 
+          <a
+            href="https://x.com/vi_cdan?s=11"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mb-3 inline-flex items-center gap-2 text-sm font-medium text-white underline underline-offset-4 hover:text-gray-200"
+          >
+            <FaXTwitter className="text-[18px]" />
+            Connect with team
+          </a>
+
           {/* Social Icons */}
           <div className="flex gap-4 mb-2 text-black text-2xl">
             <a
